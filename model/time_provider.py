@@ -27,4 +27,3 @@ class TimeProvider(object):
 
     def diff_now(self, date_time):
         return abs((self.time_now() - date_time).days)
-
