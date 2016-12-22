@@ -21,7 +21,7 @@
 class Printer(object):
 
     def print_command(self):
-        return NotImplementedError
+        raise NotImplementedError
 
     def load(self, printable):
-        return NotImplementedError
+        raise NotImplementedError

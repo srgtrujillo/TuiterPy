@@ -21,16 +21,16 @@
 class UserRepository(object):
 
     def get(self, user_name):
-        return NotImplementedError
+        raise NotImplementedError
 
     def create(self, user):
-        return NotImplementedError
+        raise NotImplementedError
 
     def follow(self, follower, followed):
-        return NotImplementedError
+        raise NotImplementedError
 
     def get_post_by_user(self, user):
-        return NotImplementedError
+        raise NotImplementedError
 
     def add(self, post):
-        return NotImplementedError
+        raise NotImplementedError

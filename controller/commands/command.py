@@ -34,4 +34,4 @@ class Command(object):
         return self.match and True or False
 
     def process(self):
-        return NotImplementedError
+        raise NotImplementedError
