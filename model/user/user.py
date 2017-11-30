@@ -27,9 +27,6 @@ class User(object):
     def add_follow(self, followed):
         self.followings.append(followed)
 
-    def __hash__(self):
-        return super(User, self).__hash__()
-
     def __eq__(self, other):
         if other is self:
             return True
